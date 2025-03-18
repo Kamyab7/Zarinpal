@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FFE6EBA8-67BC-4B80-BDB6-97DBC5D51719}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DC0F722F-AB47-4F6B-AE38-DEF08DD8DFC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZarinpalClient", "src\ZarinpalClient\ZarinpalClient.csproj", "{9B9F6990-3FFD-4D65-BC3A-61DA524B585A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZarinpalClient.Tests", "tests\ZarinpalClient.Tests\ZarinpalClient.Tests.csproj", "{5C44AA90-55E4-40F4-855F-116861DDD445}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B9F6990-3FFD-4D65-BC3A-61DA524B585A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9F6990-3FFD-4D65-BC3A-61DA524B585A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9F6990-3FFD-4D65-BC3A-61DA524B585A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9F6990-3FFD-4D65-BC3A-61DA524B585A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C44AA90-55E4-40F4-855F-116861DDD445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C44AA90-55E4-40F4-855F-116861DDD445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C44AA90-55E4-40F4-855F-116861DDD445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C44AA90-55E4-40F4-855F-116861DDD445}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B9F6990-3FFD-4D65-BC3A-61DA524B585A} = {FFE6EBA8-67BC-4B80-BDB6-97DBC5D51719}
+		{5C44AA90-55E4-40F4-855F-116861DDD445} = {DC0F722F-AB47-4F6B-AE38-DEF08DD8DFC3}
+	EndGlobalSection
+EndGlobal
