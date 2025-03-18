@@ -26,8 +26,7 @@ jobs:
       run: |
         dotnet tool install --global Microsoft.Playwright.CLI
         playwright install
-
-        
+    
     - name: Run tests
       run: dotnet test --configuration Release --no-build --verbosity normal
       env:
