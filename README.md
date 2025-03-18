@@ -3,7 +3,6 @@
 A .NET client SDK for integrating Zarinpal payment gateway into your applications.
 
 [![Build](https://github.com/kamyab7/Zarinpal/actions/workflows/ci.yml/badge.svg)](https://github.com/kamyab7/Zarinpal/actions/workflows/ci.yml)
-[![NuGet](https://img.shields.io/nuget/v/ZarinpalClient.svg)](https://www.nuget.org/packages/ZarinpalClient/)
 
 ## Features
 
@@ -13,14 +12,6 @@ A .NET client SDK for integrating Zarinpal payment gateway into your application
 - Strongly typed request/response models
 - Dependency injection support
 - Built with .NET 9.0+
-
-## Installation
-
-Install the package via NuGet:
-
-```bash
-dotnet add package ZarinpalClient
-```
 
 ## Quick Start
 
